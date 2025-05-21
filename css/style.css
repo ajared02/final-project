@@ -1,0 +1,125 @@
+/*
+CSS RESETS:
+ Border box reset:
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+*/
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ html,
+ body {
+    height: 100%;
+ }
+ 
+ 
+ body {
+     font-size: 1.6rem;
+    /* font-size 1.6rem is now the same as 16px */
+    line-height: 1.6;
+    background-color:rgb(255, 255, 255);
+    color: black;
+ }
+
+ .main header {
+    padding: 50px;
+    background: rgb(80, 65, 37);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+.seasons header {
+    padding: 50px;
+    background: rgb(168, 162, 108);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+ .winter header {
+    padding: 50px;
+    background: rgb(74, 94, 104);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+ .spring header {
+    padding: 50px;
+    background: rgb(86, 104, 74);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+ .summer header {
+    padding: 50px;
+    background: rgb(104, 100, 74);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+ .autumn header {
+    padding: 50px;
+    background: rgb(85, 73, 58);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+ 
+
+.image-div{
+    display: inline-block;
+
+}
+
+#bare {
+    position: absolute;
+    top: -200px;
+    right: 250px;
+}
+#winter {
+    position: absolute;
+    top: 0px;
+    right: 250px;
+}
+#spring {
+    position: absolute;
+    top: 0px;
+    right: 250px;
+}
+#summer {
+    position: absolute;
+    top: 0px;
+    right: 250px;
+}
+#autumn {
+    position: absolute;
+    top: 0px;
+    right: 250px;
+}
+#snowflake {
+    position: absolute;
+    top: 300px;
+    right: 1400px;
+}
+#flower {
+    position: absolute;
+    top: 300px;
+    right: 1150px;
+}
+#sun {
+    position: absolute;
+    top: 300px;
+    right: 850px;
+}
+#leaf {
+    position: absolute;
+    top: 300px;
+    right: 500px;
+}
